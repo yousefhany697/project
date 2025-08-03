@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet " href="project.css">
+</head>
+<body id="add_product_body">
+    <div id="container_5">
+        <div id="back_products_div">
+        
+             <a href="products.php">
+                 <button id="back_button_3" >←_← Back To Products Page ?</button> 
+             </a>
+        
+        </div>
+             <h2 id="add_new_product_h2">Add New Product</h2>
+             <form action="add_product.php" method="POST">
+                 <label    for="Product_name_field"     id="product_name_label">Product Name</label>
+                 <input type="text"                     id="Product_name_field" name="product_name" placeholder="Enter Your Product Name" required>
+                 <label    for="quantity_field"         id="quantity_label">Quantity</label>
+                 <input type="text"                     id="quantity_field"     name="quantity"     placeholder="Enter Your Quantity" required>
+                 <label     for="price_field"           id="price_label">Price(Euro)</label>
+                 <input type="text"                     id="price_field"        name="price"        placeholder="Enter Your Price" required>
+                <div id="submit_div_3">  
+                 <input type="submit"                   id="submit_button_3" value="Add"> 
+                 </div> 
+
+             </form>
+    </div>
+</body>
+</html>
