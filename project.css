@@ -1,0 +1,539 @@
+/* body style */
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+  }
+/* --------------------------------------------------------- */
+/* login_methods page style */
+#log_methods_body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('log_in_methods_background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#log_in_button, #register_button {
+    background-color: #98FF98;
+    border: 2px solid white;
+    color: black;
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+  #log_in_button:hover, #register_button:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    transition: 1s ease-in-out;
+}
+#container_1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1016px;
+    gap:10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+}
+/* --------------------------------------------------------- */
+/* login page style */
+#login_body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('login_background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#container_2{
+    height: 60vh;
+    width:  40vh;
+    border: 2px solid white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 19px;
+    box-shadow:  10px 15px  10px black;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+#back_button_1{
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    color: grey;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+#back_button_1:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    transition: 1s ease-in-out;
+}   
+
+
+
+#back_home_div_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+#login_1{
+    display: flex;
+    color: grey;
+}
+
+#username_login , #password_login{
+    display: flex;
+    color: black;
+    
+
+    
+}
+
+#username_login_field , #password_login_field {
+    display: flex;
+    background-color: transparent;
+    box-shadow: 1px 1px 3px white;
+    text-decoration: dashed;
+    
+    
+}
+
+#submit_button_1{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#submit_button_1:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    transition: 1s ease-in-out;
+}
+
+
+#submit_div_1{
+    position: absolute;
+    display: flex;
+    justify-self: center;
+    height: 60px;
+    width:  90px;
+}
+/* --------------------------------------------------------- */
+/* register page style */
+#register_body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('register_background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#container_3{
+    height: 60vh;
+    width:  40vh;
+    border: 2px solid white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 19px;
+    box-shadow:  5px 8px  10px rgb(196, 144, 196);
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+
+    
+}
+#back_button_2{
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    color: pink;
+}
+
+#back_button_2:hover{
+     transform: scale(1.1);
+    background-color: transparent;
+    transition: 1s ease-in-out;
+}
+#back_home_div_2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#register_h2{
+    display: flex;
+    color: lightpink;
+}
+#full_name_register_field , #email_register_field ,
+#username_register_field  , #password_register_field{
+    display: flex;
+    display: flex;
+    background-color: transparent;
+    box-shadow: 1px 1px 3px ;
+    text-decoration: dashed;
+    color: black;
+}
+#full_name_register_field::placeholder,#email_register_field::placeholder,
+#username_register_field::placeholder,#password_register_field::placeholder {
+    color: rgb(180, 167, 167);
+}
+
+#submit_button_2{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#submit_button_2:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    transition: 1s ease-in-out;
+    
+}
+
+#submit_div_2{
+    display: flex;
+    justify-self: center;
+    height: 60px;
+    width:  90px;
+}
+/* --------------------------------------------------------- */
+/*edit_product page style*/
+#edit_product_body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('edit_product_background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#edit_product_h2{
+    color: hsl(270, 98%, 40%) ;
+}
+/* --------------------------------------------------------- */
+/* add_product page style */
+#add_product_body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('add_product_background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#container_5{
+    height: 60vh;
+    width:  40vh;
+    border: 2px solid white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 19px;
+    box-shadow:  10px 15px  10px black;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+#back_button_3{
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    color: grey;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#back_button_3:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    transition: 1s ease-in-out;
+}
+
+#back_products_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#add_new_product_h2{
+    display: flex;
+    color: goldenrod;
+}
+
+#product_name_label , #quantity_label ,
+#price_label{
+    display: flex;
+}
+#Product_name_field , #quantity_field ,
+#price_field{
+    display: flex;
+    background-color: transparent;
+    box-shadow: 2px 2px 5px saddlebrown;
+    text-decoration: dashed;
+}
+#submit_button_3{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;;
+}
+#submit_button_3:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    transition: 1s ease-in-out;
+}
+#submit_div_3{
+    display: flex;
+    justify-self: center;
+    height: 60px;
+    width:  90px;
+}
+/* --------------------------------------------------------- */
+/* logged in page style */
+#you_logged_in_body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('you_logged_in_background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#container_6{
+    height: 65vh;
+    width:  50vh;
+    border: 2px solid white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex start;
+    font-size: 19px;
+    box-shadow:  10px 15px  10px black;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+#products_link{
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* --------------------------------------------------------- */
+/* products page style */
+#products_body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('home_page_background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+#container_4{
+    min-height: 60vh;
+    min-width:  70vw;
+    border: 4px solid white;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#logout_1{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100vw;
+    text-decoration: none;
+}
+#logout_button_1{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+#add_products_link_1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+ }  
+#add_product_button_1{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+#add_product_button_1:hover , #logout_button_1:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+    background-color: none;
+}
+
+#name_column , #quantity_column , 
+#price_column , #actions_column {
+    padding: 20px 50px;
+}
+
+
+/* --------------------------------------------------------- */
+/* your_account_created page style */
+#your_account_created_body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(your_account_created_background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+#container_7{
+    height: 60vh;
+    width:  40vh;
+    border: 2px solid white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 19px;
+    box-shadow:  5px 8px  10px rgb(196, 144, 196);
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    color: #98FF98;
+}
+#login_link_1{
+    text-decoration: none;
+    color: black;
+}
+/* --------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
